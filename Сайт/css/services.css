@@ -1,0 +1,428 @@
+@font-face{
+     font-family: "Lumos";
+     src: url(../fonts/AdonisC_Bold_Italic.otf);
+}
+@font-face{
+     font-family: "Pompandur";
+     src: url(../fonts/Pompadur.ttf);
+}
+@media (min-width: 1024px){
+    .servic{
+        margin-left: 6.25%;
+        background: azure;
+        position: relative ; z-index: 1;
+        padding-top: 200px;
+    }
+    .backDivis{
+        color: #faf3f3;
+        left: 0px;
+        font-style: italic;
+        font-family: Lumos;
+        text-align: center;
+        font-size: 30px;
+        padding: 37px;
+    }
+    .colServ{
+        height: 110px;
+        width: 28%;
+        background: #070707;
+    }
+    .textDivis{
+        font-family: Pompandur;
+        font-size: 17px;
+        font-style: italic;
+        position: relative ; z-index: 1;
+        margin-top: -85px;
+        float: right;
+        margin-right: 4%;
+    }
+    .textDivis p{
+        line-height: 0.5;
+    }
+    .services{
+        margin-top: 100px;
+    }
+    .services span{
+        font-size: 19px;
+        font-family: Pompandur;
+        font-weight:inherit;
+        text-align: center;
+    }
+    .services table {
+        margin-left: -3px;
+        border: 0px;
+    }
+    .services img{
+        margin-right: 15px;
+    }
+    .workTime{
+        float: right;
+        height: 330px;
+        width: 300px;
+        background: #070707;
+    }
+    .pOne{
+        margin-top: 70px;
+        text-align: left;
+        margin-left: 30px;
+        color: #faf3f3;
+        font-size: 25px;
+    }
+    .plast{
+        font-family: Pompandur;
+        font-size: 19px;
+        text-align: left;
+        margin-left: 30px;
+        color: #857e7e;
+        }
+    }
+
+@media (max-width: 992px){
+    .servic{
+        margin-left: 2%;
+        background: azure;
+        position: relative ; z-index: 1;
+        padding-top: 100px;
+    }
+    .backDivis{
+        color: #faf3f3;
+        left: 0px;
+        font-style: italic;
+        font-family: Lumos;
+        text-align: center;
+        font-size: 22px;
+        padding: 23px;
+    }
+    .colServ{
+        height: 73px;
+        width: 28%;
+        background: #070707;
+    }
+    .textDivis{
+        font-family: Pompandur;
+        font-size: 10px;
+        font-style: italic;
+        position: relative ; z-index: 1;
+        margin-top: -55px;
+        float: right;
+        margin-right: 4%;
+    }
+    .textDivis p{
+        line-height: 0.5;
+    }
+    .services{
+        margin-top: 100px;
+    }
+    .services span{
+        font-size: 13px;
+        font-family: Pompandur;
+        font-weight:inherit;
+        text-align: center;
+    }
+    .services table {
+        margin-left: -3px;
+        border: 0px;
+    }
+    .services img{
+        max-height: 170px;
+        max-width: 170px;
+        margin-right: 5px;
+    }
+    .workTime{
+        float: right;
+        height: 199px;
+        width: 220px;
+        background: #070707;
+    }
+    .pOne{
+        margin-top: 25px;
+        text-align: left;
+        margin-left: 30px;
+        color: #faf3f3;
+        font-size: 17px;
+    }
+    .plast{
+        font-family: Pompandur;
+        font-size: 15px;
+        text-align: left;
+        margin-left: 30px;
+        color: #857e7e;
+        }
+}
+
+@media (max-width: 768px){
+    .servic{
+        width: 100%;
+        margin-left: 2%;
+        background: azure;
+        position: relative ; z-index: 1;
+        padding-top: 100px;
+    }
+    .backDivis{
+        color: #faf3f3;
+        left: 0px;
+        font-style: italic;
+        font-family: Lumos;
+        text-align: center;
+        font-size: 12px;
+        padding: 13.5px;
+    }
+    .colServ{
+        height: 43px;
+        width: 34%;
+        background: #070707;
+    }
+    .textDivis{
+        font-family: Pompandur;
+        font-size: 4.5px;
+        font-style: italic;
+        position: relative ; z-index: 1;
+        margin-top: -29px;
+        float: right;
+        margin-right: 2%;
+    }
+    .textDivis p{
+        line-height: 0.5;
+    }
+    .services{
+        margin-top: 100px;
+    }
+    .services span{
+        font-size: 6.5px;
+        font-family: Pompandur;
+        font-weight:inherit;
+        text-align: center;
+    }
+    .services table {
+        margin-left: -3px;
+        margin-top: -80px;
+        border: 0px;
+    }
+    .services img{
+        margin-right: 2px;
+    }
+    .workTime{
+        float: right;
+        height: 105px;
+        width: 106px;
+        background: #070707;
+    }
+    .pOne{
+        margin-top: 14px;
+        text-align: left;
+        margin-left: 15px;
+        color: #faf3f3;
+        font-size: 9px;
+    }
+    .plast{
+        font-family: Pompandur;
+        font-size: 8px;
+        text-align: left;
+        margin-left: 15px;
+        color: #857e7e;
+        }
+    .services img{
+        max-height: 80px;
+        max-width: 80px;
+    }
+}
+
+@media (max-width: 700px){
+    .textDivis{
+        margin-right: 5%;
+        font-size: 6px;
+    }
+    .services img{
+        max-height: 130px;
+        max-width: 130px;
+    }
+    .services span{
+        font-size: 10px;
+    }
+    .workTime{
+        margin-left: 15px;
+        height: 155px;
+        width: 140px;
+    }
+    .pOne{
+        margin-top: 30px;
+        margin-left: 25px;
+        font-size: 10px;
+    }
+    .plast{
+        margin-left: 25px;
+        font-size: 9px;
+    }
+}
+
+@media (max-width: 600px){
+    .textDivis{
+        margin-right: 5%;
+        font-size: 6px;
+    }
+    .services img{
+        max-height: 130px;
+        max-width: 130px;
+    }
+    .services span{
+        font-size: 10px;
+    }
+    .workTime{
+        margin-left: 15px;
+        height: 155px;
+        width: 140px;
+    }
+    .pOne{
+        margin-top: 30px;
+        margin-left: 25px;
+        font-size: 10px;
+    }
+    .plast{
+        margin-left: 25px;
+        font-size: 9px;
+    }
+}
+
+@media (max-width: 500px){
+    .textDivis{
+        font-size: 6px;
+    }
+    .services img{
+        max-height: 110px;
+        max-width: 110px;
+    }
+    .services span{
+        font-size: 10px;
+    }
+    .workTime{
+        margin-left: 25px;
+        height: 135px;
+        width: 110px;
+    }
+    .pOne{
+        margin-top: 20px;
+    }
+}
+
+@media (max-width: 400px){
+    .backDivis{
+        margin-top: 9px;
+    }
+    .textDivis{
+        font-size: 4px;
+    }
+    .services span{
+        font-size: 6px;
+    }
+    .workTime{
+        margin-left: 10px;
+        height: 110px;
+        width: 100px;
+    }
+    .services img{
+        max-height: 85px;
+        max-width: 85px;
+    }
+    .pOne{
+        margin-top: 15px;
+        margin-left: 15px;
+        font-size: 8px;
+    }
+    .plast{
+        font-size: 7px;
+        margin-left: 15px;
+        }
+}
+
+@media (max-width: 360px){
+    .servic{
+        width: 100%;
+        margin-left: 2%;
+        background: azure;
+        position: relative ; z-index: 1;
+        padding-top: 100px;
+    }
+    .backDivis{
+        color: #faf3f3;
+        left: 0px;
+        font-style: italic;
+        font-family: Lumos;
+        text-align: center;
+        font-size: 10px;
+        padding: 9px;
+    }
+    .colServ{
+        height: 30px;
+        width: 34%;
+        background: #070707;
+    }
+    .textDivis{
+        font-family: Pompandur;
+        font-size: 3.5px;
+        font-style: italic;
+        position: relative ; z-index: 1;
+        margin-top: -20px;
+        float: right;
+        margin-right: 3%;
+    }
+    .textDivis p{
+        line-height: 0.5;
+    }
+    .services{
+        margin-top: 100px;
+    }
+    .services span{
+        font-size: 5px;
+        font-family: Pompandur;
+        font-weight:inherit;
+        text-align: center;
+    }
+    .services table {
+        margin-left: -3px;
+        margin-top: -80px;
+        border: 0px;
+    }
+    .services img{
+        margin-right: 2px;
+    }
+    .workTime{
+        float: right;
+        height: 90px;
+        width: 100px;
+        background: #070707;
+    }
+    .pOne{
+        margin-top: 10px;
+        text-align: left;
+        margin-left: 15px;
+        color: #faf3f3;
+        font-size: 7px;
+    }
+    .plast{
+        font-family: Pompandur;
+        font-size: 6px;
+        text-align: left;
+        margin-left: 15px;
+        color: #857e7e;
+        }
+    .services img{
+        max-height: 65px;
+        max-width: 65px;
+    }
+}
+
+@media (max-width: 300px){
+    .services span{
+        font-size: 4px;
+    }
+    .workTime{
+        margin-left: 10px;
+        height: 90px;
+        width: 90px;
+    }
+    .services img{
+        max-height: 55px;
+        max-width: 55px;
+    }
+}
+
